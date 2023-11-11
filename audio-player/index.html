@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music-player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="icons/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container-wrapper">
+            <div class="container">
+                <div class="cover__wrapper"><img class="cover" src="images/1.jpg" alt=""></div>
+                <div class="music-name"></div>
+                <div class="buttons">
+
+                    <div class="buttons__items"><img class="img backward" src="icons/Rewind.svg" alt="rewind"></div>
+                    <div class="buttons__items"><img class="img play play-pause" src="icons/Play.svg" alt="play/pause">
+                    </div>
+                    <div class="buttons__items"><img class="img forward" src="icons/Fast Fwd.svg" alt="forward"></div>
+
+                </div>
+                <div class="timing__wrapper">
+                    <div class="timing__current">00:00</div>
+                    <div class="timing__duration">03:05</div>
+                </div>
+                <div class="progress__wrapper">
+                    <div class="progress-line"></div>
+                </div>
+            </div>
+
+        </div>
+        <audio class="audio" src="audio/Queen - The Show Must Go On.mp3" preload="metadata"></audio>
+        <div class="footer">
+            <div class="rss-logo"><a href="https://app.rs.school/"><img src="icons/rs_school.svg" alt="rs-logo"></a>
+            </div>
+            <div class="year">2023</div>
+            <div class="git"><a href="https://github.com/hapurzhonau">hapurzhonau</a></div>
+        </div>
+    </main>
+
+</body>
+<script src="index.js"></script>
+
+</html>
